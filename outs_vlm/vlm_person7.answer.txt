@@ -1,0 +1,4 @@
+<answer>Person: Wearing orange shirt, blue jeans, brown shoes.  
+Accessories:  
+- Umbrella: type=umbrella, color=white, material=fabric.  
+- Messenger bag: type=messenger bag, color=dark blue, material=canvas-like

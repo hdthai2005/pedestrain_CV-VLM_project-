@@ -1,0 +1,29 @@
+# === Core Python utilities ===
+numpy
+pillow
+opencv-python
+tqdm
+
+# === YOLO (object detection) ===
+ultralytics>=8.3.0
+
+# === Transformers + VLM ===
+transformers>=4.43.0
+accelerate>=0.30.0
+torch>=2.2.0
+bitsandbytes>=0.43.0
+sentencepiece  # cần cho tokenizer GLM
+protobuf<5.0.0  # tránh lỗi khi load model HF
+
+# === Optional OCR (bật/tắt tuỳ nhu cầu) ===
+paddleocr>=3.0.0
+# PaddleOCR cần PaddlePaddle GPU tương ứng CUDA:
+# Nếu CUDA 12:
+# paddlepaddle-gpu==3.0.0.post120
+# Nếu CUDA 11.8:
+# paddlepaddle-gpu==3.0.0.post118
+# Nếu chỉ CPU:
+# paddlepaddle==3.0.0
+
+# === Utils / Visualization ===
+matplotlib
